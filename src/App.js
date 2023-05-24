@@ -1,7 +1,6 @@
 import React from 'react';
 
 function App() {
-  const value = 'World';
   return <div>
     Er wordt gewerkt aan deze website. 
 <br/>
