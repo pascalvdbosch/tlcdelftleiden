@@ -1,4 +1,4 @@
-import { AppBar, Box, Button, Card, CardActions, CardContent, CardMedia, Container, CssBaseline, Grid, Link, Stack, ThemeProvider, Toolbar, Typography, createTheme } from "@mui/material"
+import { Box, Button, Card, CardActions, CardContent, CardMedia, Container, Grid, Stack, Typography } from "@mui/material"
 import React from "react";
 
 
@@ -12,14 +12,6 @@ const people = [
     { text: "Haagse Hogeschool (IT)", name: "Pascal van den Bosch", image: "/pascal.jfif" },
     { text: "Haagse Hogeschool (Technische Natuurkunde)", name: "Lodewijk Hendrik Arntzen", image: "/lodewijk.jfif" },
   ];
-  
- 
-  
-  const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-  
-  // TODO remove, this demo shouldn't need to reset the theme.
-  const defaultTheme = createTheme();
-  
   export function Contact() {
     return (
       

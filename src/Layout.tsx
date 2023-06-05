@@ -1,6 +1,5 @@
 import {
   AppBar,
-  Avatar,
   Box,
   Button,
   Container,
@@ -30,34 +29,24 @@ function Copyright() {
 }
 
 const pages = ["Home", "Contact"];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const Layout = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
-    null
-  );
-  const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(
     null
   );
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorElUser(event.currentTarget);
-  };
-
+ 
   const handleCloseNavMenu =
     (navigate: any) => (event: React.MouseEvent<HTMLElement>) => {
       let text = event.currentTarget.innerText.toLowerCase();
-      if (text == "home") text = "";
+      if (text === "home") text = "";
       navigate(text);
       setAnchorElNav(null);
     };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
   const navigate = useNavigate();
 
   return (
