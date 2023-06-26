@@ -76,7 +76,7 @@ const people = [
                     </CardContent>
                     <CardActions>
                       {
-                        (person.li != "") ? 
+                        (person.li !== "") ? 
                           <Button size="small" href={person.li}>LinkedIn</Button>
                         : null
                       }
