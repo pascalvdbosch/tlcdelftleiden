@@ -5,7 +5,7 @@ import React from "react";
 const people = [
     { li: "https://nl.linkedin.com/in/hilde-wijngaard", text: "Haagse Hogeschool (Process & Food Technology)", name: "Hilde Wijngaard", image: "/hilde2.png" },
     { li: "https://nl.linkedin.com/in/jboostinga", text: "Haagse Hogeschool (Technische Natuurkunde)", name: "Jeroen Oostinga", image: "/jeroen.jfif" },
-    { li: "", text: "Leidse Instrumentmakers School", name: "Gunter Helms", image: "/gunter.jpg" },
+    { li: "https://www.linkedin.com/in/gunter-helms-31780950/", text: "Leidse Instrumentmakers School", name: "Gunter Helms", image: "/gunter.jpg" },
     { li: "https://nl.linkedin.com/in/ruudvermeij", text: "Haagse Hogeschool (Technische Wiskunde)", name: "Ruud Vermeij", image: "/ruud.jfif" },
     { li: "https://nl.linkedin.com/in/peter-denteneer-99215611b", text: "Universiteit Leiden", name: "Peter Denteneer", image: "/peter.jpg" },
     { li: "https://www.linkedin.com/in/marijn-versteegh-95202918", text: "Haagse Hogeschool (Technische Natuurkunde)", name: "Marijn Versteegh", image: "/marijn.jfif" },
